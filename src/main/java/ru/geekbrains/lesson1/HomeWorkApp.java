@@ -1,7 +1,5 @@
 package ru.geekbrains.lesson1;
 
-import java.sql.SQLOutput;
-
 // 1. Первое задание создаем пустой метод
 public class HomeWorkApp {
     public static void main(String[] args) {
@@ -14,6 +12,7 @@ public class HomeWorkApp {
     public static void printThreeWords () {
         System.out.println("Orange\nBanana\nApple");
     }
+
 //  3. Третье задание checkSumSign()
     public static void checkSumSign(){
         int a = 5;
@@ -25,6 +24,7 @@ public class HomeWorkApp {
                 System.out.println(c + "  cумма отрицательная");
         }
     }
+
 // 4. Четвертое задание printColor()
     public static void printColor() {
         int value = 150;
@@ -37,6 +37,7 @@ public class HomeWorkApp {
             System.out.println(value + " больше либо равно 101 , значит ЗЕЛЕНЫЙ");
         }
     }
+
 //    5. Пятое задание compareNumbers()
     public static void compareNumbers() {
         int a = 17;
